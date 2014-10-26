@@ -10,10 +10,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="TopPerm - Base" Type="Folder" URL="..">
+		<Item Name="TopPerm" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Cell Properties.ctl" Type="VI" URL="/&lt;userlib&gt;/Exaprom PDF/Controls/Cell Properties.ctl"/>
+				<Item Name="Data.ctl" Type="VI" URL="/&lt;userlib&gt;/Exaprom PDF/Controls/PDF Table Xcontrol/Data.ctl"/>
+				<Item Name="Watermark Page Position.ctl" Type="VI" URL="/&lt;userlib&gt;/Exaprom PDF/Controls/Watermark Page Position.ctl"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -96,16 +101,13 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Cell Properties.ctl" Type="VI" URL="/../&lt;userlib&gt;/Exaprom PDF/Controls/Cell Properties.ctl"/>
-			<Item Name="Data.ctl" Type="VI" URL="/../&lt;userlib&gt;/Exaprom PDF/Controls/PDF Table Xcontrol/Data.ctl"/>
-			<Item Name="itextsharp.dll" Type="Document" URL="../../GitHub/TopView/DLL/itextsharp.dll"/>
+			<Item Name="itextsharp.dll" Type="Document" URL="../../TopView/DLL/itextsharp.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Watermark Page Position.ctl" Type="VI" URL="/../&lt;userlib&gt;/Exaprom PDF/Controls/Watermark Page Position.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Top Porosimeter" Type="EXE">
@@ -115,6 +117,7 @@
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{87BC876C-45F4-4A42-A928-1E4FDB55C528}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Top Porosimeter</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">French</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -129,17 +132,19 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Top Porosimeter/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6AE46649-2048-471D-8025-940E21DDB7E1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA03965C-5CAB-4FB8-88FC-1E44A040CC66}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TopView/Interface/Interface.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TopPerm/lm32.dll</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TopPerm/Interface/Interface.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_autoIncrement" Type="Bool">true</Property>
 				<Property Name="TgtF_companyName" Type="Str">J2S</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Top Porosimeter</Property>
-				<Property Name="TgtF_fileVersion.build" Type="Int">25</Property>
+				<Property Name="TgtF_fileVersion.build" Type="Int">26</Property>
 				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">Top Porosimeter</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 J2S</Property>
