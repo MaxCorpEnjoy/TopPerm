@@ -14,6 +14,11 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="Cell Properties.ctl" Type="VI" URL="/&lt;userlib&gt;/Exaprom PDF/Controls/Cell Properties.ctl"/>
+				<Item Name="Data.ctl" Type="VI" URL="/&lt;userlib&gt;/Exaprom PDF/Controls/PDF Table Xcontrol/Data.ctl"/>
+				<Item Name="Watermark Page Position.ctl" Type="VI" URL="/&lt;userlib&gt;/Exaprom PDF/Controls/Watermark Page Position.ctl"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -72,16 +77,13 @@
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Cell Properties.ctl" Type="VI" URL="../../../../../../../&lt;userlib&gt;/Exaprom PDF/Controls/Cell Properties.ctl"/>
-			<Item Name="Data.ctl" Type="VI" URL="../../../../../../../&lt;userlib&gt;/Exaprom PDF/Controls/PDF Table Xcontrol/Data.ctl"/>
-			<Item Name="itextsharp.dll" Type="Document" URL="../../../../../../MaxCorp/Documents/GitHub/TopView/DLL/itextsharp.dll"/>
+			<Item Name="itextsharp.dll" Type="Document" URL="../../../../../MaxCorp/Documents/GitHub/TopView/DLL/itextsharp.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Watermark Page Position.ctl" Type="VI" URL="../../../../../../../&lt;userlib&gt;/Exaprom PDF/Controls/Watermark Page Position.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Top Porosimeter" Type="EXE">
