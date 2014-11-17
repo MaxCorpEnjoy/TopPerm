@@ -29,7 +29,7 @@
 28;Porosimeter;Porosimètre
 29;Exit;Quitter
 30;Calibrate;Etalonner
-31;Pore measure;Faire une mesure de pore
+31;Measure;Mesure
 32;Purge;Purger
 33;Automatic mode;Mode automatique
 34;Manual mode;Mode manuel
@@ -134,7 +134,7 @@
 133;Measuring…;Mesure en cours…
 134;Correlation;Correlation
 135;Grain measure;Faire une mesure de grain
-136;Grain measures;Mesures de grain
+136;Measure data;Données de mesure
 137;Pore measures;Mesures de pore
 138;;
 139;;
