@@ -86,7 +86,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="ISMBUS32.DLL" Type="Document" URL="../../../../../WINDOWS/system32/ISMBUS32.DLL"/>
-			<Item Name="itextsharp.dll" Type="Document" URL="../../TopView/DLL/itextsharp.dll"/>
+			<Item Name="itextsharp.dll" Type="Document" URL="../../../../../MaxCorp/Documents/GitHub/TopView/DLL/itextsharp.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -158,7 +158,7 @@
 				<Property Name="INST_productName" Type="Str">Top Porosimeter</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">12008024</Property>
+				<Property Name="InstSpecVersion" Type="Str">12008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">J2S</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.j2s.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{0E3ED951-861E-4A59-9DBF-14C165457240}</Property>
