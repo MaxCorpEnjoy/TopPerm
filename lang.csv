@@ -44,13 +44,13 @@
 43;Outlet valve;Valve de sortie
 44;Matrix cup;Echantillon
 45;;
-46;Reference Cell;Cellule de référence
+46;;
 47;Keep point;Garder le point
 48;P1/P2 ratio;Rapport P1/P2
 49;Continue;Continuer
 50;Calibration volumes table;Tableau des volumes de calibrations
 51;Machine name;Nom de la machine
-52;Average absolute deviation;Deviation moyenne
+52;;
 53;Services access;Accès aux services
 54;Password;Mot de passe
 55;Authenticated;Accès autorisé
@@ -72,12 +72,12 @@
 71;Current pressure;Pression courante
 72;Pressure  ;Pression  
 73;Time;Temps
-74;Disk set;Jeu de disques
+74;;
 75;Volume;Volume
 76;Measure;Mesure
-77;Calibration step;Nombre de mesures effectuées
-78;Save calibration file;Sauvegarder les données de calibration
-79;Restart calibration;Recommencer la calibration
+77;;
+78;;
+79;;
 80;Idle.;Repos.
 81;Calibration: idle.;Calibration: repos.
 82;Measure in progress. Do not open the container.;Mesure en cours. N'ouvrez pas le conteneur.
@@ -96,17 +96,17 @@
 95;Save changes;Sauvegarder
 96;Available languages;Langues disponibles
 97;Measures;Mesures
-98;Measures and fitted curve;Mesure et courbe d'étalonnage
+98;;
 99;Fitted polynom coefficients;Coefficient du polynome d'interpolation
-100;Residue;Résidu
+100;;
 101;;
-102;Calibration file;Fichier de calibration
-103;Load file;Charger le fichier
-104;Available volumes;Volumes disponibles
+102;;
+103;;
+104;;
 105;Total volume;Volume total
 106;Sleeve;Chemise
 107;Start measure;Lancer la mesure
-108;End calibration;Terminer la calibration
+108;;
 109;Measures results;Résultats
 110;Clear measures table;Effacer le tableau des résultats
 111;Export to HTML;Exporter en HTML
@@ -118,7 +118,7 @@
 117;Maximal wait time (ms);Temps maximal d'attente (ms)
 118;Minimal wait time (ms);Temps minimal d'attente (ms)
 119;Variance trigger;Variance minimale
-120;Use point n°;Prise en compte point n°
+120;;
 121;Delete measure;Supprimer la mesure
 122;Company;Entreprise
 123;Location;Lieu
