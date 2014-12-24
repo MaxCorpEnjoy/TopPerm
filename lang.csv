@@ -30,9 +30,9 @@
 29;Exit;Quitter
 30;Calibrate;Etalonner
 31;Measure;Mesure
-32;Purge;Purger
-33;Automatic mode;Mode automatique
-34;Manual mode;Mode manuel
+32;Please, before starting calibration, make sure the core holder is empty.;S'il vous plaît, avant de commencer l'étalonnage, assurez-vous que le conteneur est vide.
+33;;
+34;;
 35;Helium tank;Bonbonne d'Hélium
 36;Reference 1;Référence 1
 37;Reference 2;Référence 2
@@ -75,14 +75,14 @@
 74;;
 75;Volume;Volume
 76;Measure;Mesure
-77;;
+77;Calibration;Etalonnage
 78;;
 79;;
 80;Idle.;Repos.
-81;Calibration: idle.;Calibration: repos.
+81;Calibration: idle.;Etalonnage: repos.
 82;Measure in progress. Do not open the container.;Mesure en cours. N'ouvrez pas le conteneur.
 83;Purge in progress. Please wait for the end to open the container.;Purge en cours. Veuillez attendre la fin avant d'ouvrir le conteneur.
-84;Calibration: measure in progress, do not open the container.;Calibration: mesure en cours, n'ouvrez pas le conteneur.
+84;Calibration: measure in progress, do not open the container.;Etalonnage: mesure en cours, n'ouvrez pas le conteneur.
 85;Measure has been reported;Rapport de la mesure effectué
 86;;
 87;Purge done.;Purge finie.
@@ -97,16 +97,16 @@
 96;Available languages;Langues disponibles
 97;Measures;Mesures
 98;;
-99;Fitted polynom coefficients;Coefficient du polynome d'interpolation
+99;Gain;Gain
 100;;
 101;;
 102;;
-103;;
-104;;
+103;Cancel calibration;Annuler l'étalonnage
+104;Canceling …;En cours d'annulation …
 105;Total volume;Volume total
 106;Sleeve;Chemise
 107;Start measure;Lancer la mesure
-108;;
+108;Start calibration;Lancer l'étalonnage
 109;Measures results;Résultats
 110;Clear measures table;Effacer le tableau des résultats
 111;Export to HTML;Exporter en HTML
@@ -127,12 +127,12 @@
 126;Operator;Opérateur
 127;Field;Champs
 128;Well;Puits
-129;;
-130;Stability achieved.;Stabilité atteinte.
-131;Stability NOT achieved;Stabilité NON atteinte
-132;;
+129;Stability achieved.;Stabilité atteinte.
+130;Stability NOT achieved;Stabilité NON atteinte
+131;Progression:;Avancement:
+132;Calibration of ;Etalonnage de 
 133;Measuring…;Mesure en cours…
-134;Correlation;Correlation
+134;Offset;Décalage statique
 135;Grain measure;Faire une mesure de grain
 136;Measure data;Données de mesure
 137;Pore measures;Mesures de pore
