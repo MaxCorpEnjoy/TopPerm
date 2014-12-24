@@ -2,5 +2,9 @@
 My Computer = "10.15.155.71"
 
 [Poste de travail]
+<<<<<<< HEAD
 Poste de travail = "192.168.1.12"
+=======
+Poste de travail = "192.168.0.13"
+>>>>>>> origin/master
 
