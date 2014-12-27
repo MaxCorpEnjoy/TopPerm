@@ -2,11 +2,11 @@
 1;Number;Numéro
 2;Sample ID;ID de l'échantillon
 3;Depth (m);Profondeur (m)
-4;Leght (cm);Longueur (cm)
+4;Lenght (cm);Longueur (cm)
 5;Diameter (cm);Diamètre (cm)
 6;Permeability (Darcies);Perméabilité (Darcies)
 7;DeltaPressure (bar);DeltaPression (bar)
-8;Viscosity (centipoise);Viscosité(centipoise)
+8;Viscosity (centipoise);Viscosité (centipoise)
 9;Flow (cc/sec);Débit (cc/sec)
 10;Temperature (°C);Température (°C)
 11;Comments;Commentaires
@@ -98,8 +98,8 @@
 97;Measures;Mesures
 98;;
 99;Gain;Gain
-100;;
-101;;
+100;Restart calibration;Refaire l'étalonnage
+101;Validate calibration;Valider l'étalonnage
 102;;
 103;Cancel calibration;Annuler l'étalonnage
 104;Canceling …;En cours d'annulation …
@@ -129,7 +129,7 @@
 128;Well;Puits
 129;Stability achieved.;Stabilité atteinte.
 130;Stability NOT achieved;Stabilité NON atteinte
-131;Progression:;Avancement:
+131;Progress:;Avancement:
 132;Calibration of ;Etalonnage de 
 133;Measuring…;Mesure en cours…
 134;Offset;Décalage statique
