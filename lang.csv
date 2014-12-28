@@ -87,9 +87,9 @@
 86;;
 87;Purge done.;Purge finie.
 88;Purging…;Purge en cours…
-89;Captor configuration;Configuration du capteur
-90;Valve configuration;Configuration des valves
-91;Valve mapping;Mappage des valves
+89;PT01 configuration;Configuration PT01
+90;PT02 configuration;Configuration PT02
+91;;
 92;Sleeve configuration;Configuration de la chemise
 93;Pressure offset;Offset de pression
 94;Pressure gain;Gain de pression
@@ -139,8 +139,8 @@
 138;Flow;Débit
 139;;
 140;;
-141;;
-142;;
+141;Gantner active;Gantner actif
+142;Brooks active;Brooks actif
 143;;
 144;;
 145;;
