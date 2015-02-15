@@ -26,7 +26,7 @@
 25;Operations;Opérations
 26;Settings;Configuration
 27;Services;Services
-28;Porosimeter;Porosimètre
+28;Permeameter;Perméamètre
 29;Exit;Quitter
 30;Calibrate;Etalonner
 31;Measure;Mesure
@@ -63,12 +63,12 @@
 62;Stopbits;Bits de stop
 63;Flux control;Contrôle de flux
 64;Register address;Adresse de registre
-65;Connected device;Modules actifs
-66;PUM-E;PUM-E actif
-67;Pressure Transducer;Capteur de pression actif
-68;Lack of power;Défaut de puissance
+65;;
+66;;
+67;Keller (PT02, PT03) active;Keller (PT02, PT03) actif
+68;Overflow;Surdébit
 69;Overpressure;Surpression
-70;Loss of pressure signal;Perte du signal de pression
+70;Current flow;Débit courant
 71;Current pressure;Pression courante
 72;Pressure  ;Pression  
 73;Time;Temps
@@ -87,11 +87,11 @@
 86;;
 87;Purge done.;Purge finie.
 88;Purging…;Purge en cours…
-89;PT01 configuration;Configuration PT01
+89;Gantner configuration;Configuration Gantner
 90;PT02 configuration;Configuration PT02
-91;;
-92;Sleeve configuration;Configuration de la chemise
-93;Pressure offset;Offset de pression
+91;PT03 configuration;Configuration PT03
+92;FT01 configuration;Configuration FT01
+93;FT02 configuration;Configuration FT02
 94;Pressure gain;Gain de pression
 95;Save changes;Sauvegarder
 96;Available languages;Langues disponibles
@@ -128,7 +128,7 @@
 127;Field;Champs
 128;Well;Puits
 129;Stability achieved.;Stabilité atteinte.
-130;Stability NOT achieved;Stabilité NON atteinte
+130;Stability NOT achieved.;Stabilité NON atteinte.
 131;Progress:;Avancement:
 132;Calibration of ;Etalonnage de 
 133;Measuring…;Mesure en cours…
@@ -139,8 +139,8 @@
 138;Flow;Débit
 139;;
 140;;
-141;Gantner active;Gantner actif
-142;Brooks active;Brooks actif
+141;Gantner (PT01, Temp, HEV01, HEV02) active;Gantner (PT01, Temp, HEV01, HEV02) actif
+142;Brooks (FT01, FT02) active;Brooks (FT01, FT02) actif
 143;;
 144;;
 145;;
